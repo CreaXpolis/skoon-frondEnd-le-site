@@ -185,7 +185,7 @@ header {
     font-size: 80px;
     font-weight: 600;
     color: #FCE72F;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     font-family: 'Prompt', sans-serif;
     text-transform: uppercase; 
     line-height: 13 0px;  
