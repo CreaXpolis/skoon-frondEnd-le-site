@@ -26,7 +26,7 @@ h1 {
     text-transform: uppercase; 
     color: #49ADA1;
     margin-bottom: 0;
-    margin-top: -20px;
+    margin-top: -21px;
 }
 
 section {
