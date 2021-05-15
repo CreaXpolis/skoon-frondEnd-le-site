@@ -1,13 +1,13 @@
 <template>
-  <body>
-    <div class="actu">
-      <h1>Page actu</h1>
-    </div>
-  </body>
+<div>
+    <h1>Evénements</h1>
+</div>
 </template>
 
+
+
 <style scoped>
-body h1{
+h1{
   font-family: "Prompt", sans-serif;
   font-size: 36px;
   font-weight: 300;
@@ -16,4 +16,6 @@ body h1{
   margin: 0;
   background-color: #fcf8f2;
 }
+
+
 </style>

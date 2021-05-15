@@ -1,7 +1,7 @@
 <template>
     <header>
       <div class="imglead">
-        <img src="../assets/media/img-lead2.jpg" alt="Bouteille plastique sur la plage"/>
+        <img src="../assets/media/img-lead.jpg" alt="Bouteille plastique sur la plage" style= "box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)"/>
       </div>
     </header>
       <div class="accroche">Ensemble<br />sauvons notre planète</div>

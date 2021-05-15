@@ -2,7 +2,8 @@
 
    <section class="pollution">
             <div>
-                <img src="../assets/media/plages-nettoyage2.jpg" alt="Une main rammasse une bouteille plastique" style="float:left; margin-right:50px">
+                <img src="../assets/media/plages-nettoyage2.jpg" alt="Une main rammasse une bouteille plastique"
+                 style="float:left; margin-right:50px; border-radius: 20px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)"/>
             </div>
             <div class="textpol">
                 <h1>La pollution est partout</h1>
