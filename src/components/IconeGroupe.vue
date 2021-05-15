@@ -14,6 +14,12 @@
 
 </template>
 
+<script>
+export default {
+    name: 'IconeGroupe'
+}
+</script>
+
 <style scoped>
 
 h1 {

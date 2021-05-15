@@ -8,14 +8,11 @@
   </div>
 </template>
 
-<!--<script>
+<script>
 export default {
-  setup() {
-      // eslint-disable-next-line no-unused-labels
-      name: 'Skoonestla'
-      }  
+    name: 'Skoonestla'
 }
-</script>-->
+</script>
 
 <style scoped>
 

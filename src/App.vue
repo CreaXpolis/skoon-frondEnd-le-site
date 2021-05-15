@@ -4,7 +4,7 @@
       <img src="./assets/logoskoon3.svg" alt="logo SKOON"/>
     </div>
     <router-link to="/">Home</router-link> |
-    <router-link to="/actualités">Actualités</router-link> |
+    <router-link to="/actualites">Actualités</router-link> |
     <router-link to="/evenements">Evénements</router-link> |
     <router-link to="/connexion">Connexion</router-link>
   </div>

@@ -38,6 +38,12 @@
   </footer>
 </template>
 
+<script>
+export default {
+    name: 'CGV'
+}
+</script>
+
 <style scoped>
 footer {
   margin-top: 0px;

@@ -19,6 +19,12 @@
 
 </template>
 
+<script>
+export default {
+    name: 'SkoonFilles'
+}
+</script>
+
 <style scoped>
 
 p {

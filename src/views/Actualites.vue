@@ -1,19 +1,19 @@
 <template>
 
-    <div class="actu">
-      <h1>Page actu</h1>
+    <div class="Actualites">
+    <Actus/>
     </div>
 
 </template>
 
-<style scoped>
-h1{
-  font-family: "Prompt", sans-serif;
-  font-size: 36px;
-  font-weight: 300;
-  color: #a94d19;
+<script>
 
-  margin: 0;
-  background-color: #fcf8f2;
+import Actus from "../components/Actus.vue";
+
+export default {
+ name: 'Actualites',
+components: {
+  Actus
+  }
 }
-</style>
+</script>

@@ -16,6 +16,12 @@
     
 </template>
 
+<script>
+export default {
+    name: 'FooterPlan'
+}
+</script>
+
 <style scoped>
 
 h1 {

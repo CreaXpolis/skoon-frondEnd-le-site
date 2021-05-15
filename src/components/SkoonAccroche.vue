@@ -8,13 +8,11 @@
 
 </template>
 
-<!--<script>
+<script>
 export default {
-    setup() {
-        
-    },
+    name: 'SkoonAccroche'
 }
-</script>-->
+</script>
 
 <style scoped>
 

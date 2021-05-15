@@ -19,6 +19,12 @@
 
 </template>
 
+<script>
+export default {
+    name: 'SkoonChiffres'
+}
+</script>
+
 <style scoped>
 
 section {

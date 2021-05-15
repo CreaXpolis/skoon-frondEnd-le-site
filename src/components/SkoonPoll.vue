@@ -18,6 +18,12 @@
 
 </template>
 
+<script>
+export default {
+    name: 'SkoonPoll'
+}
+</script>
+
 <style scoped>
 
 h1 {
