@@ -1,4 +1,5 @@
 <template>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <div class="Actualites">
     <h1>Actualités</h1>
     <Actualites1 />
@@ -20,6 +21,7 @@ export default {
     Actualites3,
   },
 };
+
 </script>
 <style scoped>
 .Actualites {
