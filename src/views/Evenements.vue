@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <SkoonAccroche/>
+    <SkoonAccroche2/>
     <!--<form action="Evenements.vue" method="Get">
     <div>
 <label for="site-search">Entrez une adresse:</label>
@@ -26,11 +26,11 @@
 
 <script>
 import EventView from '@/components/EventView.vue';
-import SkoonAccroche from "../components/SkoonAccroche.vue";
+import SkoonAccroche2 from "../components/SkoonAccroche2.vue";
 
 export default {
   components: {
-   SkoonAccroche, EventView,
+   SkoonAccroche2, EventView,
     
   },
 
