@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <SkoonAccroche/>
-    <form action="Evenements.vue" method="Get">
+    <!--<form action="Evenements.vue" method="Get">
     <div>
 <label for="site-search">Entrez une adresse:</label>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
   </div>
-    </form>
+    </form>-->
 <button>Search</button>
 
   </div>
@@ -43,7 +43,7 @@ export default {
   methods: {
   
     fetchAllEvents() {
-      fetch("https://localhost:8080/")
+      fetch("https://localhost:8081/evenement")
         .then((response) => response.json())
         .then((data) => {
           this.$store.commit("setEvenements", data);
