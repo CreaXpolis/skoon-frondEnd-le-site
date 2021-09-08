@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Evenements from '../views/Evenements.vue'
+import Connexion from '../views/Connexion.vue'
+import Actualites from '../views/Actualites.vue'
+import IdEvent from '../views/IdEvent.vue'
 
 
 
@@ -15,18 +19,23 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "actualites" */ '../views/Actualites.vue')
+    component : Actualites
   },
   {
     path: '/evenements',
     name: 'Evenements',
-    component: () => import(/* webpackChunkName: "evenements" */ '../views/Evenements.vue')
+    component: Evenements
   
   },
   {
     path: '/connexion',
     name: 'Connexion',
-    component: () => import(/* webpackChunkName: "connexion" */ '../views/Connexion.vue')
+    component: Connexion
+  },
+  {
+    path: '/IdEvent',
+    name: 'IdEvent',
+    component: IdEvent
   }
 ];
 

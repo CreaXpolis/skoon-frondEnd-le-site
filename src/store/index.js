@@ -1,26 +1,15 @@
-import { createStore } from 'vuex'
 
-export default createStore({
-  state () {
+ import { createStore } from 'vuex'
+ import evenements from "../store/evenements.js"
+ import evenementId from "../store/eventId.js"
+  
+ export default createStore ({
 
-   return {
-      Evenements : [{}],
-   }
-  },
-  mutations: {
-    setEvenements(state, valeur){
-      state.Evenements = valeur; 
-    },
-  },
-  getters: {
-    Evenements (state) {
-      return state.Evenements;
-    }
-  },
-  actions: {
 
-  },
-  modules: {
-  }
+modules: {
+    evenements, evenementId,
+}
+
+
+
 })
-

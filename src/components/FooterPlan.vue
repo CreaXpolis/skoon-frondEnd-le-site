@@ -2,15 +2,15 @@
 
  <footer>
             <div class="plan">
-                <h1>Plan du site</h1>
-                <connec>
+                <h2>Plan du site</h2>
+                <div class="connect">
                     <ul>
                         <li><a href="#" title="Home">Home</a></li>
                         <li><a href="#" title="Actualites">Actualités</a></li>
-                        <li><a href="#" title="Evenements">Evénements</a></li>
+                        <li><a href="#" title="Évenements">Événements</a></li>
                         <li><a href="#" title="Connexion">Connexion</a></li>
                     </ul>
-                </connec>
+                </div>
             </div>
 </footer>
     
@@ -24,8 +24,8 @@ export default {
 
 <style scoped>
 
-h1 {
-    font-size: 48px;
+h2 {
+    font-size: 2em;
     font-weight: 700;
     font-family: 'Prompt', sans-serif;
     text-transform: uppercase; 
@@ -35,7 +35,7 @@ h1 {
 
 footer {
     margin-top: 40px;
-    width: 1440px;
+    width: 1140px;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
@@ -46,12 +46,12 @@ footer h1 {
 margin-left: 40px;
 }
 
-connec li {
+.connect li {
     display: inline-block;
     text-align: center;
 }
 
-connec a {
+.connect a {
     font-family: 'Prompt', sans-serif;
     font-size: 36px;
     font-weight: 300; 
@@ -66,5 +66,14 @@ connec a {
     font-size: 36px;
     font-weight: 300;    
 }
-
+@media only screen and (max-width: 460px){
+    footer {
+    width: 80%;
+    margin-right: 70px;
+}
+.connect >ul {
+    width: 20%;
+    margin-left: -20px;
+}
+}
 </style>

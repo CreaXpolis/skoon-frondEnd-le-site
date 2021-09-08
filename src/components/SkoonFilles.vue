@@ -47,7 +47,7 @@ h1 {
 
 section {
     margin-top: 40px;
-    width: 1440px;
+    width: 1140px;
     margin-right: auto;
     margin-left: auto;
     padding: 0px;

@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="cgv">
-      <h1>Mentions légales</h1>
+      <h2>Mentions légales</h2>
       <ul>
         <li>
           <a href="#" title="Conditions générales d'utilisation"
@@ -29,7 +29,7 @@
       </ul>
     </div>
     <div class="autres">
-      <h1>Autres</h1>
+      <h2>Autres</h2>
       <ul>
         <li><a href="#" title="Presse">Presse</a></li>
         <li><a href="#" title="Aide">Aide</a></li>
@@ -47,7 +47,7 @@ export default {
 <style scoped>
 footer {
   margin-top: 0px;
-  width: 1440px;
+  width: 100%;
   height: 350px;
   margin-right: auto;
   margin-left: auto;
@@ -56,12 +56,12 @@ footer {
   background-color: #fcf8f2;
 }
 
-footer h1 {
+footer h2 {
   margin-left: 40px;
 }
 
-h1 {
-  font-size: 48px;
+h2 {
+  font-size: 2em;
   font-weight: 700;
   font-family: "Prompt", sans-serif;
   text-transform: uppercase;
@@ -73,22 +73,18 @@ h1 {
   float: left;
   margin-top: 80px;
   margin-right: 80px;
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .cgv {
-  margin-top: 0px;
+  margin-top: 05%;
   float: left;
   margin-right: 80px;
 }
 
-.cgv h1 {
-  margin-left: 0;
-}
-
 .cgv a {
   font-family: "Prompt", sans-serif;
-  font-size: 36px;
+  font-size: 1.7em;
   font-weight: 300;
   color: #a94d19;
   text-decoration: none;
@@ -99,11 +95,8 @@ h1 {
   list-style: none;
 }
 
-.autres h1 {
-  margin-left: 0;
-}
 .autres {
-  margin-top: 0px;
+  margin-top: 05%;
   float: left;
 }
 
@@ -120,6 +113,20 @@ h1 {
   list-style: none;
 }
 
+@media only screen and (max-width: 460px){
+  footer{
+    width: 60%;
+    margin: 0;
+  }
+  .apple >img {
+    width: 150%;
+    margin-left: 40%;
+  }
+  .google >img {
+    width: 150%;
+    margin-left: 40%;
+  }
+}
 
 
 
